@@ -65,6 +65,34 @@ h4 {
 }
 
 .main-img {
+  display: block;
   width: 400px;
   margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-text {
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 25px;
+  }
+
+  .main-desc,
+  .btn {
+    font-size: 12px;
+  }
+
+  .main-img {
+    position: absolute;
+    width: 230px;
+    margin-top: 230px;
+  }
 }
