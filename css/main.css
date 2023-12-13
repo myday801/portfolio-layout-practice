@@ -156,4 +156,23 @@ h4 {
   .subtitle {
     font-size: 18px;
   }
+
+  /* service */
+  .service-bg {
+    height: 500px;
+  }
+
+  .service-list {
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 0 auto;
+  }
+
+  .service-item {
+    margin: 30px 15px 0px 15px;
+  }
+
+  .service-item:nth-child(2) {
+    margin-right: 0;
+  }
 }
